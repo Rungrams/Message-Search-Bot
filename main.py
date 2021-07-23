@@ -89,6 +89,64 @@ async def inline_handlers(_, event: InlineQuery):
     except QueryIdInvalid:
         print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {event.from_user.first_name}")
 
+
+@Bot.on_callback_query()
+async def button(bot, cmd: CallbackQuery):
+	cb_data = cmd.data
+	if "About_msg" in cb_data:
+		await cmd.message.edit(
+			ABOUT_BOT_TEXT,
+			parse_mode="Markdown",
+			disable_web_page_preview=True,
+			reply_markup=InlineKeyboardMarkup(
+				[
+					[
+						InlineKeyboardButton("Source Code of Bot", url="https://t.me/Moviesflixers_DL")
+					],
+					[
+						InlineKeyboardButton("Go Home", callback_data="gotohome"),
+						InlineKeyboardButton("Developer - @PredatorHackerzZ", url="https://t.me/TheTeleRoid")
+					]
+				]
+			)
+		)
+	elif "Help_msg" in cb_data:
+		await cmd.message.edit(
+			ABOUT_HELP_TEXT,
+			parse_mode="Markdown",
+			disable_web_page_preview=True,
+			reply_markup=InlineKeyboardMarkup(
+				[
+					[
+						InlineKeyboardButton("Source Codes of Bot", url="https://t.me/Moviesflixers_DL")
+					],
+					[
+						InlineKeyboardButton("👥 About", callback_data="About_msg"),
+						InlineKeyboardButton("Go Home", callback_data="gotohome")
+					]
+				]
+			)
+		)
+	elif "gotohome" in cb_data:
+		await cmd.message.edit(
+			HOME_TEXT.format(cmd.message.chat.first_name, cmd.message.chat.id),
+			parse_mode="Markdown",
+			disable_web_page_preview=True,
+			reply_markup=InlineKeyboardMarkup(
+				[
+					[
+						InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/TeleRoid14"),
+						InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup")
+					],
+					[
+						InlineKeyboardButton("👥 About", callback_data="About_msg"),
+						InlineKeyboardButton("♻ Help", callback_data="Help_msg")
+					]
+				]
+			)
+		)
+
+
 # Start Clients
 Bot.start()
 User.start()
