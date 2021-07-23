@@ -11,24 +11,22 @@ class Config(object):
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
-Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
+𝐓𝐡𝐢𝐬 𝐢𝐬 𝐀 𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭 𝐎𝐟 **@TheTeleRoid** 𝐀𝐧𝐝 𝐒𝐨𝐦𝐞 𝐎𝐭𝐡𝐞𝐫 𝐁𝐨𝐭𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐎𝐧 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦. 
+🤖 **My Name:** [@𝐏𝐇𝐋𝐢𝐬𝐭𝐁𝐨𝐭](https://t.me/{BOT_USERNAME})
 
-🤖 **My Name:** [File Store Bot](https://t.me/{BOT_USERNAME})
+📝 **Language:** [𝐏𝐲𝐭𝐡𝐨𝐧𝟑](https://www.python.org)
 
-📝 **Language:** [Python3](https://www.python.org)
+📚 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+📡 **Hosted on:** [𝐇𝐞𝐫𝐨𝐤𝐮](https://heroku.com)
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+🧑🏻‍💻 **Developer:** **@PredatorHackerzZ**
 
-🧑🏻‍💻 **Developer:** @PredatorHackerzZ_bot
+👥 **Support Group:** [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/TeleRoid14)
 
-👥 **Support Group:** [TeleRoid Support](https://t.me/TeleRoid14)
-
-📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
+📢 **Updates Channel:** [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/TeleRoidGroup)
 """
-    ABOUT_DEV_TEXT = f"""
+    ABOUT_HELP_TEXT = f"""
 🧑🏻‍💻 **Developer:** @PredatorHackerzZ_bot
 
 Developer is Super Noob. Just Learning from Official Docs.\n@TheTeleRoid
@@ -38,14 +36,7 @@ Also remember that developer will Delete Adult Contents from Database. So better
 
 """
     HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+𝐇𝐞𝐲!, [{}](tg://user?id={})\n\n𝐓𝐡𝐢𝐬 𝐈𝐬 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭**@PHListBot**.
 
-
-How To Use This Bot & Benefits??
-
-📍 Send Me Any File & It'll Be Uploaded Into My Database & You Get The File Link.
-
-⚠️ Benifit: If You Have Telegram Movie Channel, Then Its Useful For Your Daily Usage, You can Send Me Your File & I'll Send You The Link Of Your File So Your Subscribers Can Get The File From Me & Your Channel Will Be Safe From COPYRIGHT INFRINGEMENT Issue.
-
-❌ 𝗣𝗢𝗥𝗡𝗢𝗚𝗥𝗔𝗣𝗛𝗜𝗖 𝗖𝗢𝗡𝗧𝗘𝗡𝗧𝗦 Are Strictly Prohibited & Will Get You Banned Permanently. I Support Channel Also! Check **About Bot** Button.
+**𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲** : **@TeamTeleRoid**\n𝐄𝐯𝐞𝐫𝐲𝐎𝐧𝐞 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐉𝐨𝐮𝐫𝐧𝐞𝐲. 
 """
