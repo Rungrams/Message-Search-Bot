@@ -1,7 +1,7 @@
-# (c) @AbirHasan2005
+# (c) @PredatorHackerzZ
 # I just made this for searching a channel message from inline.
 # Maybe you can use this for something else.
-# I first made this for @AHListBot ...
+# I first made this for @TGBotListBot ...
 # Edit according to your use.
 
 from configs import Config
@@ -32,10 +32,10 @@ async def start_handler(_, event: Message):
         "**Developer:** @AbirHasan2005\n"
         "**Demo Bot:** @AHListBot",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-             InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-            [InlineKeyboardButton("Developer - @AbirHasan2005")],
-            [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
+            [InlineKeyboardButton("𝐁𝐨𝐭𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/DevsZone"),
+             InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/Discovery_Updates")],
+            [InlineKeyboardButton("𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦 𝐁𝐨𝐭𝐬",@AbirHasan2005")],
+            [InlineKeyboardButton("𝐒𝐞𝐚𝐫𝐜𝐡 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query_current_chat=""), InlineKeyboardButton("𝐆𝐨 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query="")]
         ])
     )
 
