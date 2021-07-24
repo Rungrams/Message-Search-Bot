@@ -10,54 +10,52 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "PHListBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    ABOUT_BOT_TEXT = f"""
-Hey! This is TeleRoid BotList Bot @PHListBot.
+    ABOUT_BOT_TEXT = """<b>Hey! This is TeleRoid BotList Bot @PHListBot.</b>
 
-🤖 **My Name:** [@PHListBot](https://t.me/PHListBot)
+<b>🤖 **My Name:** [@PHListBot](https://t.me/PHListBot)</b>
 
-📝 **Language:** [Python3](https://www.python.org)
+<b>📝 **Language:** [Python3](https://www.python.org)</b>
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+<b>📚 **Library:** [Pyrogram](https://docs.pyrogram.org)</b>
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+<b>📡 **Hosted on:** [Heroku](https://heroku.com)</b>
 
-👨‍💻 **Developer:** [@PredatorHackerzZ](https://t.me/PredatorHackerzZ) 
+<b>👨‍💻 **Developer:** [@PredatorHackerzZ](https://t.me/PredatorHackerzZ) </b>
 
-🌐 **Github :** [@PHListBot_Repo](https://github.com/PredatorHackerzZ) 
+<b>🌐 **Github :** [@PHListBot_Repo](https://github.com/PredatorHackerzZ) </b>
 
-👥 **Support Group:** [TeleRoid Support](https://t.me/TeleRoid14)
+<b>👥 **Support Group:** [TeleRoid Support](https://t.me/TeleRoid14)</b>
 
-📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
+<b>📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)</b>
 """
-    ABOUT_HELP_TEXT = f"""Choose Bot category 😎
+    ABOUT_HELP_TEXT = """Choose Bot category 😎
 
-☛ RENAME_BOTS
-☛ FILE_TO_LINK_BOTS
-☛ GDRIVE_BOTS
-☛ TORRENT_BOTS
-☛ URL_UPLOADER_BOTS
-☛ SCREENSHOT_BOTS
-☛ GROUP_MANAGER_BOTS
-☛ YOUTUBE_BOTS
-☛ FILE_CONVERTOR_BOTS
-☛ LINK_TO_FILE_BOTS
+<b>☛ RENAME_BOTS </b>
+<b>☛ FILE_TO_LINK_BOTS </b>
+<b>☛ GDRIVE_BOTS </b>
+<b>☛ TORRENT_BOTS </b>
+<b>☛ URL_UPLOADER_BOTS </b>
+<b>☛ SCREENSHOT_BOTS </b>
+<b>☛ GROUP_MANAGER_BOTS</b>
+<b>☛ YOUTUBE_BOTS</b>
+<b>☛ FILE_CONVERTOR_BOTS</b>
+<b>☛ LINK_TO_FILE_BOTS</b>
 
-There are multiple things I can do:
+<b>There are multiple things I can do:</b>
 
-🌀 I can get you Best Available Telegram Bots under AMC Projects
+<b>🌀 I can get you Best Available Telegram Bots under TeleRoid Projects </b>
 
-🌀 If u Get any Error Regarding Bots in the Botlist .Report : @TeleRoid14
+<b>🌀 If u Get any Error Regarding Bots in the Botlist .Report : @TeleRoid14 </b>
 
-😎 Our Project Channel : @TeleRoidGroup
+<b>😎 Our Project Channel : @TeleRoidGroup</b>
 
-🌀🎦 All Bots Based on your Interest will be Uploaded. You can send your feedback 
+<b>🌀🎦 All Bots Based on your Interest will be Uploaded. You can send your feedback</b>
 
-📢JOIN @TeleRoidGroup.
+<b>📢JOIN @TeleRoidGroup.</b>
 """
-    HOME_TEXT = """
-Hello! [{}](tg://user?id={})\n\nThis is Bots Finder List Bot**@PHListBot**.
+    HOME_TEXT = """<b>Hello! [{}](tg://user?id={})\n\nThis is Bots Finder List Bot**@PHListBot**.</b>
 
-How To Use This Bot??
+<b>How To Use This Bot??</b>
 
-📜 Check Help **♻ HELP**  Section of Bot.
+<b>📜 Check Help **♻ HELP**  Section of Bot.</b>
 """
