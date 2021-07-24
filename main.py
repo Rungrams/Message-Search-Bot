@@ -107,7 +107,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("☠️ Source Code ", url="https://t.me/Moviesflixers_DL")
 					],
 					[
-						InlineKeyboardButton("Go Home", callback_data="gotohome"),
+						InlineKeyboardButton("Go Home", callback_data="gohome"),
 						InlineKeyboardButton("👮‍♀️ Developer", url="https://t.me/TheTeleRoid")
 					]
 				]
@@ -125,12 +125,12 @@ async def button(bot, cmd: CallbackQuery):
 					],
 					[
 						InlineKeyboardButton("👥 About", callback_data="About_msg"),
-						InlineKeyboardButton("Go Home", callback_data="gotohome")
+						InlineKeyboardButton("Go Home", callback_data="gohome")
 					]
 				]
 			)
 		)
-	elif "gotohome" in cb_data:
+	elif "gohome" in cb_data:
 		await cmd.message.edit(
 			HOME_TEXT.format(cmd.message.chat.first_name, cmd.message.chat.id),
 			parse_mode="Markdown",
