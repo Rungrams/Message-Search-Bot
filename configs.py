@@ -10,7 +10,7 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "PHListBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    ABOUT_BOT_TEXT = """
+    ABOUT_BOT_TEXT = f"""
 Hey! This is TeleRoid BotList Bot @PHListBot.
 
 🤖 **My Name:** [@PHListBot](https://t.me/PHListBot)
@@ -29,7 +29,7 @@ Hey! This is TeleRoid BotList Bot @PHListBot.
 
 📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
 """
-    ABOUT_HELP_TEXT = """Choose Bot category 😎
+    ABOUT_HELP_TEXT = f"""Choose Bot category 😎
 
 ☛ RENAME_BOTS
 ☛ FILE_TO_LINK_BOTS
