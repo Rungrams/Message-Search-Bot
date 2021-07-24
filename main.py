@@ -104,11 +104,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Source Code of Bot", url="https://t.me/Moviesflixers_DL")
+						InlineKeyboardButton("☠️ Source Code ", url="https://t.me/Moviesflixers_DL")
 					],
 					[
 						InlineKeyboardButton("Go Home", callback_data="gotohome"),
-						InlineKeyboardButton("Developer - @PredatorHackerzZ", url="https://t.me/TheTeleRoid")
+						InlineKeyboardButton("👮‍♀️ Developer", url="https://t.me/TheTeleRoid")
 					]
 				]
 			)
