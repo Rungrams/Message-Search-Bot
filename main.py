@@ -35,7 +35,8 @@ User = Client(
 async def start_handler(_, event: Message):
     await event.reply_text(
         "𝐇𝐞𝐥𝐥𝐨! 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐀𝐧 𝐀𝐦𝐚𝐳𝐢𝐧𝐠 𝐈𝐧𝐥𝐢𝐧𝐞 𝐁𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐑𝐨𝐛𝐨𝐭 𝐭𝐡𝐚𝐭 𝐟𝐢𝐧𝐝𝐬 𝐀𝐦𝐚𝐳𝐢𝐧𝐠 𝐁𝐨𝐭𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦.\n\n"
-        "**𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 : @PredatorHackerzZ**",
+        "**𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 : @PredatorHackerzZ**\n\n"
+        "❤ From **@TheTeleRoid**,
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("𝐁𝐨𝐭𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/TeleRoidGroup"),
              InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/TeleRoid14")],
