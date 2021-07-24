@@ -29,8 +29,7 @@ Hey! This is TeleRoid BotList Bot @PHListBot.</b>
 
 📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
 """
-    ABOUT_HELP_TEXT = <b>"""
-Choose Bot category 😎</b>
+    ABOUT_HELP_TEXT = <b>"""Choose Bot category 😎</b>
 
 ☛ RENAME_BOTS
 ☛ FILE_TO_LINK_BOTS
