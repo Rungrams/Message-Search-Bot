@@ -67,3 +67,6 @@ Choose Bot category 😎
 
            𝐄𝐯𝐞𝐫𝐲𝐎𝐧𝐞 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐉𝐨𝐮𝐫𝐧𝐞𝐲. 
 """
+
+
+    START_MSG = 
