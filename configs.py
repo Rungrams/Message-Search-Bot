@@ -10,21 +10,23 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "PHListBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    ABOUT_BOT_TEXT = """🛑<b>My Name : @TeleRoid_Zee5_Bot</b>
+    ABOUT_BOT_TEXT =  f"""
+This is Permanent Files Store Bot!
+Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-<b>👨‍💻 ᴄʀᴇᴀᴛᴏʀ :</b> @PredatorHackerzZ
+🤖 **My Name:** [File Store Bot](https://t.me/{BOT_USERNAME})
 
-<b>🈂 ʟᴀɴɢᴜᴀɢᴇ :</b> <code>ᴘʏᴛʜᴏɴ3</code>
+📝 **Language:** [Python3](https://www.python.org)
 
-<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ 1.0.7</a> 
+📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-<b>📌 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :</b> 👉 <a href='https://GitHub.com/PredatorHackerzZ/Zee5-Downloader>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+📡 **Hosted on:** [Heroku](https://heroku.com)
 
-<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :</b> <a href='https://t.me/TeleRoid14'> ᴄʜᴇᴄᴋ ʜᴇʀᴇ </a>
+🧑🏻‍💻 **Developer:** @PredatorHackerzZ_bot
 
-<b> ᴛᴇʟᴇʀᴏɪᴅ ɢʀᴏᴜᴘ :</b> <a href='https://t.me/TeleRoidGroup'> Channel Updates </a>
+👥 **Support Group:** [TeleRoid Support](https://t.me/TeleRoid14)
 
-<b> ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛʟɪꜱᴛ :</b> @TGRobot_List
+📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
 """
     ABOUT_HELP_TEXT = """Choose Bot category 😎
 
