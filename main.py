@@ -10,16 +10,19 @@ from pyrogram.errors import QueryIdInvalid
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, InlineQuery, InlineQueryResultArticle, CallbackQuery \
     InputTextMessageContent
 
+##--Sub Configs--##
+    ABOUT_BOT_TEXT = Config.ABOUT_BOT_TEXT, 
+    ABOUT_HELP_TEXT = Config.ABOUT_HELP_TEXT, 
+    HOME_TEXT = Config.HOME_TEXT, 
+
 # Bot Client for Inline Search
 Bot = Client(
     session_name=Config.BOT_SESSION_NAME,
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
-    bot_token=Config.BOT_TOKEN, 
-    ABOUT_BOT_TEXT = Config.ABOUT_BOT_TEXT, 
-    ABOUT_HELP_TEXT = Config.ABOUT_HELP_TEXT, 
-    HOME_TEXT = Config.HOME_TEXT, 
+    bot_token=Config.BOT_TOKEN
 )
+
 # User Client for Searching in Channel.
 User = Client(
     session_name=Config.USER_SESSION_STRING,
