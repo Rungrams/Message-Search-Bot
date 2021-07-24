@@ -29,7 +29,7 @@ Hey! This is TeleRoid BotList Bot @PHListBot.
 
 📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
 """
-	ABOUT_HELP_TEXT = f"""
+    ABOUT_HELP_TEXT = f"""
 Choose Bot category 😎
 
 ☛ RENAME_BOTS
@@ -55,7 +55,7 @@ There are multiple things I can do:
 
 📢JOIN @TeleRoidGroup.
 """
-	HOME_TEXT = """
+    HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Bots Finder List Bot**@PHListBot**.
 How To Use This Bot??
 
