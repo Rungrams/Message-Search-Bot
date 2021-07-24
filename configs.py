@@ -10,28 +10,29 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "PHListBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    ABOUT_BOT_TEXT = """
+    ABOUT_BOT_TEXT = """<b>
 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐀 𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭 𝐎𝐟 @TheTeleRoid 𝐀𝐧𝐝 𝐒𝐨𝐦𝐞 𝐎𝐭𝐡𝐞𝐫 𝐁𝐨𝐭𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐎𝐧 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦.
 
-🤖 𝗠𝘆 𝗡𝗮𝗺𝗲: [@𝐏𝐇𝐋𝐢𝐬𝐭𝐁𝐨𝐭](https://t.me/PHListBot)
+🤖 𝗠𝘆 𝗡𝗮𝗺𝗲: <a href='https://t.me/PHListBot'>@𝐏𝐇𝐋𝐢𝐬𝐭𝐁𝐨𝐭</a>
 
-📜 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: [𝐏𝐲𝐭𝐡𝐨𝐧𝟑](https://www.python.org)
+📜 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: <a href='https://www.python.org'>𝐏𝐲𝐭𝐡𝐨𝐧𝟑</a>
 
-📚 𝗟𝗶𝗯𝗿𝗮𝗿𝘆: [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
+📚 𝗟𝗶𝗯𝗿𝗮𝗿𝘆: <a href='https://docs.pyrogram.org'>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-📡 𝗛𝗼𝘀𝘁𝗲𝗱 𝗼𝗻: [𝐇𝐞𝐫𝐨𝐤𝐮](https://heroku.com)
+📡 𝗛𝗼𝘀𝘁𝗲𝗱 𝗼𝗻: <a href='https://heroku.com'>𝐇𝐞𝐫𝐨𝐤𝐮</a>
 
-👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫𝐇𝐚𝐜𝐤𝐞𝐫𝐳𝐙](https://t.me/PredatorHackerzZ) 
+👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: <a href='https://t.me/PredatorHackerzZ'>@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫𝐇𝐚𝐜𝐤𝐞𝐫𝐳𝐙</a>
 
-🌐 𝗚𝗶𝘁𝗵𝘂𝗕 𝗥𝗲𝗽𝗼: [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://github.com/PredatorHackerzZ)
+🌐 𝗚𝗶𝘁𝗵𝘂𝗕 𝗥𝗲𝗽𝗼: <a href='https://github.com/PredatorHackerzZ'>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞</a>
 
-👥 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽: [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/TeleRoid14)
+👥 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽: <a href='https://t.me/teleroid14'>𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
 
-📢 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/TeleRoidGroup)
+📢 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: <a href='https://t.me/teleroidgroup'>𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a></b>
 """
     
     ABOUT_HELP_TEXT = """<b>
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: [@PredatorHackerzZ](https://t.me/PredatorHackerzZ) 
+
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: <a href='https://t.me/PredatorHackerzZ'>@PredatorHackerzZ</a>
 
 
 Choose Bot category 😎
@@ -51,7 +52,7 @@ Choose Bot category 😎
 
 🌀 𝐈 𝐜𝐚𝐧 𝐠𝐞𝐭 𝐲𝐨𝐮 𝐁𝐞𝐬𝐭 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐨𝐭𝐬 𝐮𝐧𝐝𝐞𝐫 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦 𝐁𝐨𝐭𝐬 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬.
 
-🌀 𝐈𝐟 𝐮 𝐆𝐞𝐭 𝐚𝐧𝐲 𝐄𝐫𝐫𝐨𝐫 𝐑𝐞𝐠𝐚𝐫𝐝𝐢𝐧𝐠 𝐁𝐨𝐭𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐁𝐨𝐭𝐥𝐢𝐬𝐭 .𝐑𝐞𝐩𝐨𝐫𝐭 : [@𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝𝟏𝟒](https://t.me/TeleRoid14). 
+🌀 𝐈𝐟 𝐮 𝐆𝐞𝐭 𝐚𝐧𝐲 𝐄𝐫𝐫𝐨𝐫 𝐑𝐞𝐠𝐚𝐫𝐝𝐢𝐧𝐠 𝐁𝐨𝐭𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐁𝐨𝐭𝐥𝐢𝐬𝐭 .𝐑𝐞𝐩𝐨𝐫𝐭 : <a href='https://t.me/teleroid14'>@𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝𝟏𝟒</a>.
 
 🌀 𝐎𝐮𝐫 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @TeleRoidGroup.
 
