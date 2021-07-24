@@ -30,7 +30,7 @@ class Config(object):
 📢 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/TeleRoidGroup)
 """
     
-    ABOUT_HELP_TEXT = """
+    ABOUT_HELP_TEXT = """<b>
 👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: [@PredatorHackerzZ](https://t.me/PredatorHackerzZ) 
 
 
@@ -57,20 +57,20 @@ Choose Bot category 😎
 
 🌀🎦 𝐀𝐥𝐥 𝐁𝐨𝐭𝐬 𝐁𝐚𝐬𝐞𝐝 𝐨𝐧 𝐲𝐨𝐮𝐫 𝐈𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐮𝐩𝐥𝐨𝐚𝐝𝐞𝐝. 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐬𝐞𝐧𝐝 𝐲𝐨𝐮𝐫 𝐟𝐞𝐞𝐝𝐛𝐚𝐜𝐤 𝐭𝐨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩.
 
-📢𝐉𝐨𝐢𝐧 : @TheTeleRoid
+📢𝐉𝐨𝐢𝐧 : @TheTeleRoid</b>
 """
     
     HOME_TEXT = """
-𝐇𝐞𝐲!, [{}](tg://user?id={}), 𝐓𝐡𝐢𝐬 𝐈𝐬 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭 @PHListBot.
+<b>𝐇𝐞𝐲!, {}, 𝐓𝐡𝐢𝐬 𝐈𝐬 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭 @PHListBot.
 
 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 : @TeamTeleRoid
 
-           𝐄𝐯𝐞𝐫𝐲𝐎𝐧𝐞 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐉𝐨𝐮𝐫𝐧𝐞𝐲. 
+           𝐄𝐯𝐞𝐫𝐲𝐎𝐧𝐞 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐉𝐨𝐮𝐫𝐧𝐞𝐲.</b>
 """
 
 
-    START_MSG = """𝐇𝐞𝐥𝐥𝐨! 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐀𝐧 𝐀𝐦𝐚𝐳𝐢𝐧𝐠 𝐈𝐧𝐥𝐢𝐧𝐞 𝐁𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐑𝐨𝐛𝐨𝐭 𝐭𝐡𝐚𝐭 𝐟𝐢𝐧𝐝𝐬 𝐀𝐦𝐚𝐳𝐢𝐧𝐠 𝐁𝐨𝐭𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦.
+    START_MSG = """<b>𝐇𝐞𝐥𝐥𝐨! 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐀𝐧 𝐀𝐦𝐚𝐳𝐢𝐧𝐠 𝐈𝐧𝐥𝐢𝐧𝐞 𝐁𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐑𝐨𝐛𝐨𝐭 𝐭𝐡𝐚𝐭 𝐟𝐢𝐧𝐝𝐬 𝐀𝐦𝐚𝐳𝐢𝐧𝐠 𝐁𝐨𝐭𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦.</b>
 
-𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 : @PredatorHackerzZ
+<b>𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 :</b> @PredatorHackerzZ
 
 ❤ From @TheTeleRoid"""
