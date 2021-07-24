@@ -77,7 +77,7 @@ async def inline_handlers(_, event: InlineQuery):
                     description="{}".format(message.text.rsplit("\n", 1)[-1]),
                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧", switch_inline_query_current_chat=""), InlineKeyboardButton("𝐆𝐨 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query="")]]),
                     input_message_content=InputTextMessageContent(
-                        message_text=message.text.markdown,
+                        message_text=f"{message.text.markdown}".format(message.text.rsplit("_", _)),
                         parse_mode="html",
                         disable_web_page_preview=True
                     )
@@ -98,7 +98,6 @@ async def button(bot, cmd: CallbackQuery):
 	if "About_msg" in cb_data:
             await cmd.message.edit(
 			text=ABOUT_BOT_TEXT,
-			parse_mode="html",
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
@@ -115,7 +114,6 @@ async def button(bot, cmd: CallbackQuery):
 	elif "Help_msg" in cb_data:
             await cmd.message.edit(
 			text=ABOUT_HELP_TEXT,
-			parse_mode="html",
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
@@ -132,7 +130,6 @@ async def button(bot, cmd: CallbackQuery):
 	elif "gohome" in cb_data:
 	    await cmd.message.edit(
 			text=START_MSG.format(cmd.from_user.mention),
-			parse_mode="html",
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
