@@ -11,9 +11,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
     InputTextMessageContent
 
 ##--Sub Configs--##
-    ABOUT_BOT_TEXT = Config.ABOUT_BOT_TEXT, 
-    ABOUT_HELP_TEXT = Config.ABOUT_HELP_TEXT, 
-    HOME_TEXT = Config.HOME_TEXT, 
+    ABOUT_BOT_TEXT=Config.ABOUT_BOT_TEXT, 
+    ABOUT_HELP_TEXT=Config.ABOUT_HELP_TEXT, 
+    HOME_TEXT=Config.HOME_TEXT, 
 
 # Bot Client for Inline Search
 Bot = Client(
