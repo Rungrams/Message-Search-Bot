@@ -19,29 +19,12 @@ class Config(object):
 
 📡 **Hosted on:** [𝐇𝐞𝐫𝐨𝐤𝐮](https://heroku.com)\n\n
 
-👨‍💻 **Developer:** **@PredatorHackerzZ**\n\n
-
-🌐 **GithuB Repo:** [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://github.com/PredatorHackerzZ)\n\n
-
-👥 **Support Group:** [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/TeleRoid14)\n\n
-
-📢 **Updates Channel:** [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/TeleRoidGroup)\n\n
+👨‍💻 **Developer:** **@PredatorHackerzZ**\n\n🌐 **GithuB Repo:** [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://github.com/PredatorHackerzZ)\n\n👥 **Support Group:** [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/TeleRoid14)\n\n📢 **Updates Channel:** [𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/TeleRoidGroup)\n\n
 """
     ABOUT_HELP_TEXT = f"""
-👨‍💻 **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫:** **@PredatorHackerzZ**.\n\n
+👨‍💻 **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫:** **@PredatorHackerzZ**.\n\nChoose Bot category 😎\n\n\n
 
-Choose Bot category 😎\n\n
-
-☛ RENAME_BOTS\n
-☛ FILE_TO_LINK_BOTS\n
-☛ GDRIVE_BOTS\n
-☛ URL_UPLOADER_BOTS\n
-☛ GROUP_MANAGER_BOTS\n
-☛ MUSIC_SONGS_BOTS\n
-☛ YOUTUBE_BOTS\n
-☛ FILE_CONVERTOR_BOTS\n
-☛ USEFUL_BOTS\n
-☛ LINK_TO_FILE_BOTS\n
+☛ RENAME_BOTS\n☛ FILE_TO_LINK_BOTS\n☛ GDRIVE_BOTS\n☛ URL_UPLOADER_BOTS\n☛ GROUP_MANAGER_BOTS\n☛ MUSIC_SONGS_BOTS\n☛ YOUTUBE_BOTS\n☛ FILE_CONVERTOR_BOTS\n☛ USEFUL_BOTS\n☛ LINK_TO_FILE_BOTS\n
 
 
 𝗧𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗲 𝘁𝗵𝗶𝗻𝗴𝘀 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗰𝗮𝗻 𝗱𝗼:\n\n
