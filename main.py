@@ -7,7 +7,7 @@
 from configs import Config
 from pyrogram import Client, filters, idle
 from pyrogram.errors import QueryIdInvalid
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, InlineQuery, InlineQueryResultArticle, \
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InlineQuery, InlineQueryResultArticle, \
     InputTextMessageContent
 
 ##--Sub Configs--##
