@@ -10,12 +10,6 @@ from pyrogram.errors import QueryIdInvalid
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InlineQuery, InlineQueryResultArticle, \
     InputTextMessageContent
 
-##--Sub Configs--##
-ABOUT_BOT_TEXT = Config.ABOUT_BOT_TEXT, 
-ABOUT_HELP_TEXT = Config.ABOUT_HELP_TEXT, 
-HOME_TEXT = Config.HOME_TEXT,     
-START_MSG = Config.START_MSG
-
 # Bot Client for Inline Search
 Bot = Client(
     session_name=Config.BOT_SESSION_NAME,
@@ -34,7 +28,7 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-    await event.reply_text(START_MSG,
+    await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("𝐁𝐨𝐭𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/TeleRoidGroup"),
              InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/TeleRoid14")],
@@ -97,7 +91,7 @@ async def button(bot, cmd: CallbackQuery):
 	cb_data = cmd.data
 	if "About_msg" in cb_data:
             await cmd.message.edit(
-			text=ABOUT_BOT_TEXT,
+			text=Config.ABOUT_BOT_TEXT,
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
@@ -109,11 +103,12 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("👮‍♀️ Developer", url="https://t.me/TheTeleRoid")
 					]
 				]
-			)
+			),
+			parse_mode="html"
 		)
 	elif "Help_msg" in cb_data:
             await cmd.message.edit(
-			text=ABOUT_HELP_TEXT,
+			text=Config.ABOUT_HELP_TEXT,
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
@@ -125,11 +120,12 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("Go Home", callback_data="gohome")
 					]
 				]
-			)
+			),
+			parse_mode="html"
 		)
 	elif "gohome" in cb_data:
 	    await cmd.message.edit(
-			text=START_MSG.format(cmd.from_user.mention),
+			text=Config.START_MSG.format(cmd.from_user.mention),
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
@@ -142,7 +138,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("♻ Help", callback_data="Help_msg")
 					]
 				]
-			)
+			),
+			parse_mode="html"
 		)
 
 
