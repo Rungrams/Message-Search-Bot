@@ -10,8 +10,8 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "PHListBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    ABOUT_BOT_TEXT = f"""
-Hey! This is TeleRoid BotList Bot @PHListBot.
+    ABOUT_BOT_TEXT = """<b>
+Hey! This is TeleRoid BotList Bot @PHListBot.</b>
 
 🤖 **My Name:** [@PHListBot](https://t.me/PHListBot)
 
@@ -29,8 +29,8 @@ Hey! This is TeleRoid BotList Bot @PHListBot.
 
 📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)
 """
-    ABOUT_HELP_TEXT = f"""
-Choose Bot category 😎
+    ABOUT_HELP_TEXT = <b>"""
+Choose Bot category 😎</b>
 
 ☛ RENAME_BOTS
 ☛ FILE_TO_LINK_BOTS
@@ -56,7 +56,8 @@ There are multiple things I can do:
 📢JOIN @TeleRoidGroup.
 """
     HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Bots Finder List Bot**@PHListBot**.
+<b>Hi, [{}](tg://user?id={})\n\nThis is Bots Finder List Bot**@PHListBot**.</b>
+
 How To Use This Bot??
 
 📜 Check Help **♻ HELP**  Section of Bot.
