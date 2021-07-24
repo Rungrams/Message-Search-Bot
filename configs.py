@@ -10,23 +10,21 @@ class Config(object):
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "PHListBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    ABOUT_BOT_TEXT = """<b>Hey! This is TeleRoid BotList Bot @PHListBot.</b>
+    ABOUT_BOT_TEXT = """🛑<b>My Name : @TeleRoid_Zee5_Bot</b>
 
-<b>🤖 **My Name:** [@PHListBot](https://t.me/PHListBot)</b>
+<b>👨‍💻 ᴄʀᴇᴀᴛᴏʀ :</b> @PredatorHackerzZ
 
-<b>📝 **Language:** [Python3](https://www.python.org)</b>
+<b>🈂 ʟᴀɴɢᴜᴀɢᴇ :</b> <code>ᴘʏᴛʜᴏɴ3</code>
 
-<b>📚 **Library:** [Pyrogram](https://docs.pyrogram.org)</b>
+<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ 1.0.7</a> 
 
-<b>📡 **Hosted on:** [Heroku](https://heroku.com)</b>
+<b>📌 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :</b> 👉 <a href='https://GitHub.com/PredatorHackerzZ/Zee5-Downloader>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
-<b>👨‍💻 **Developer:** [@PredatorHackerzZ](https://t.me/PredatorHackerzZ) </b>
+<b>ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :</b> <a href='https://t.me/TeleRoid14'> ᴄʜᴇᴄᴋ ʜᴇʀᴇ </a>
 
-<b>🌐 **Github :** [@PHListBot_Repo](https://github.com/PredatorHackerzZ) </b>
+<b> ᴛᴇʟᴇʀᴏɪᴅ ɢʀᴏᴜᴘ :</b> <a href='https://t.me/TeleRoidGroup'> Channel Updates </a>
 
-<b>👥 **Support Group:** [TeleRoid Support](https://t.me/TeleRoid14)</b>
-
-<b>📢 **Updates Channel:** [TeleRoid Updates](https://t.me/TeleRoidGroup)</b>
+<b> ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛʟɪꜱᴛ :</b> @TGRobot_List
 """
     ABOUT_HELP_TEXT = """Choose Bot category 😎
 
