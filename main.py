@@ -71,7 +71,7 @@ async def inline_handlers(_, event: InlineQuery):
                     description="{}".format(message.text.rsplit("\n", 1)[-1]),
                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧", switch_inline_query_current_chat=""), InlineKeyboardButton("𝐆𝐨 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query="")]]),
                     input_message_content=InputTextMessageContent(
-                        message_text="{message.text.html}".format(message.text.rsplit("_", _)),
+                        message_text=message.text.markdown),
                         parse_mode="html",
                         disable_web_page_preview=True
                     )
