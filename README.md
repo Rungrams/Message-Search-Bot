@@ -1,5 +1,5 @@
 # Message-Search-Bot
-A Telegram Bot for searching any channel messages from Inline by **[@PredatorHackerzZ](https://github.com/PredatorHackerzZ)**.
+A Telegram Bot for searching any channel messages from Inline by **[@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫𝐇𝐚𝐜𝐤𝐞𝐫𝐳𝐙](https://github.com/PredatorHackerzZ)**.
 
 I made this for [@𝐏𝐇𝐋𝐢𝐬𝐭𝐁𝐨𝐭](https://t.me/PHListBot). You can use this for something else. Edit according to your use.
 
@@ -9,7 +9,7 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PredatorHackerzZ/Message-Search-Bot)
 
 ### Support Group:
-<a href="https://t.me/TeleRoid14"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+**<a href="https://t.me/TeleRoid14"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>**
 
 ### Follow on:
 <p align="left">
