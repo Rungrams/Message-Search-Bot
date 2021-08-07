@@ -96,7 +96,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("☠️ Source Code ", url="https://t.me/Moviesflixers_DL")
+						InlineKeyboardButton("📜Source Code📜", url="https://t.me/bot_repo")
 					],
 					[
 						InlineKeyboardButton("Go Home", callback_data="gohome"),
