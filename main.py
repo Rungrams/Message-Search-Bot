@@ -30,11 +30,11 @@ User = Client(
 async def start_handler(_, event: Message):
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("𝐁𝐨𝐭𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/TeleRoidGroup"),
-             InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/TeleRoid14")],
+            [InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥📢", url="https://t.me/Tobot_update"),
+             InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩👥", url="https://t.me/Tobotupdate")],
             [InlineKeyboardButton("♻ 𝐇𝐞𝐥𝐩", callback_data="Help_msg"),
-             InlineKeyboardButton("👥 𝐀𝐛𝐨𝐮𝐭", callback_data="About_msg")],
-            [InlineKeyboardButton("𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐇𝐞𝐫𝐞",url="https://t.me/TeleRoid14")],
+             InlineKeyboardButton("𝐀𝐛𝐨𝐮𝐭👩‍💻", callback_data="About_msg")],
+            [InlineKeyboardButton("𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐇𝐞𝐫𝐞",url="https://t.me/botrepo")],
             [InlineKeyboardButton("𝐒𝐞𝐚𝐫𝐜𝐡 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query_current_chat=""), InlineKeyboardButton("𝐆𝐨 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query="")]
         ])
     )
@@ -51,14 +51,14 @@ async def inline_handlers(_, event: InlineQuery):
                 description="You can search Channel All Messages using this bot.",
                 input_message_content=InputTextMessageContent(
                     message_text="𝐔𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐁𝐨𝐭 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐒𝐞𝐚𝐫𝐜𝐡 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐁𝐨𝐭𝐋𝐢𝐬𝐭 𝐁𝐨𝐭 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐎𝐧 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦.\n\n"
-                                 "**Made by the Owner @PredatorHackerzZ**\n**@TheTeleRoid**",
+                                 "**Made by the Owner @rungram**\n**@Tobot_update**",
                     disable_web_page_preview=True
                 ),
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("𝐒𝐞𝐚𝐫𝐜𝐡 𝐇𝐞𝐫𝐞", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝 𝐁𝐨𝐭𝐋𝐢𝐬𝐭", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"),
-                     InlineKeyboardButton("𝐁𝐨𝐭𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/TeleRoidGroup")],
-                    [InlineKeyboardButton("𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦 𝐁𝐨𝐭𝐬𝐋𝐢𝐬𝐭", url="https://t.me/TGRobot_List")]
+                    [InlineKeyboardButton("𝐁𝐨𝐭𝐋𝐢𝐬𝐭🤖", url="https://t.me/tobot_update/5"),
+                     InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥📢", url="https://t.me/TOBOT_UPDATE")],
+                    [InlineKeyboardButton("GROUP👥", url="https://t.me/TOBOTUPDATE")]
                 ])
             )
         )
@@ -100,7 +100,7 @@ async def button(bot, cmd: CallbackQuery):
 					],
 					[
 						InlineKeyboardButton("Go Home", callback_data="gohome"),
-						InlineKeyboardButton("👮‍♀️ Developer", url="https://t.me/TheTeleRoid")
+						InlineKeyboardButton("👮‍♀️ Developer", url="https://t.me/rungram")
 					]
 				]
 			),
@@ -113,7 +113,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Source Codes of Bot", url="https://t.me/Moviesflixers_DL")
+						InlineKeyboardButton("📜Source Codes📜", url="https://t.me/bot_repo")
 					],
 					[
 						InlineKeyboardButton("👥 About", callback_data="About_msg"),
@@ -130,8 +130,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/TeleRoid14"),
-						InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup")
+						InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"),
+						InlineKeyboardButton("🔔SUBSCRIBE🔔", url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
 					],
 					[
 						InlineKeyboardButton("👥 About", callback_data="About_msg"),
